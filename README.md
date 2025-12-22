@@ -17,3 +17,4 @@ h. Desde la terminar, nos solicitar proponer una alternativa que evite realizar 
 
 
 Para realizar esta parte de la actividad, alojamos la base de datos en github y escribirmos todo el codigo en un notebook de jupiter. 
+Para ingresar el notebook presione en el siguiente [ENLACE](https://github.com/Merenguimona/act_2/blob/0677ad8c45772469834155d341db02267206aade/notebook/Actividad_2.ipynb)
