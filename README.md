@@ -20,5 +20,11 @@ h. Desde la terminar, nos solicitar proponer una alternativa que evite realizar 
 
 **Para realizar esta parte de la actividad realizamos lo siguiente:**
 1. Alojamos la base de datos en github en la carpeta data
-2. Escribirmos todo el codigo y las explicaciones de los paso a paso en un notebook de Google Google Colab al que se puede ingresar por el siguiente [ENLACE](https://github.com/Merenguimona/act_2/blob/4b0ffd19980390b77c38a8afdabd5e86e8cf129a/notebook/Actividad_2.ipynb)
-3. Las bases de datos en formato json y js se encuentrán en la carpeta [outputs](https://github.com/Merenguimona/act_2/tree/4b0ffd19980390b77c38a8afdabd5e86e8cf129a/outputs)
+2. Escribirmos todo el codigo y las explicaciones de los paso a paso en el notebook  Actividad_2.ipynb de Google Google Colab el que esta alojado en este [repositorio](https://github.com/Merenguimona/act_2/blob/4b0ffd19980390b77c38a8afdabd5e86e8cf129a/notebook/Actividad_2.ipynb) y que se puede ejecutar desde [Google Colab](https://colab.research.google.com/github/Merenguimona/act_2/blob/main/notebook/Actividad_2.ipynb). 
+3. Las bases de datos en formato JSON y JS se encuentrán en la carpeta [outputs](https://github.com/Merenguimona/act_2/tree/4b0ffd19980390b77c38a8afdabd5e86e8cf129a/outputs)
+4. Para realizar los comandos de la base de datos de MongoDB se utilizo el MongoDB atlas, para dejar todo en línea.
+5. Neo4j ¿en línea?
+
+
+**Justificación del uso de las plataformas**
+Dado que esta es una actividad grupal, buscamos distintas plataformas que permitieran el trabajo en línea, dado que somos de distintos países, que fuera gratuira y que facilitará la revisión y ejecución de los códigos por parte del profesor. 
