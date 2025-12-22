@@ -15,7 +15,5 @@ f. Describir brevemente las instrucciones anteriores\
 g. Se consulta si con el elemento: `datos_insertar ` ¿se podría realizar un ´insert´ masivo? ¿Cómo?\
 h. Desde la terminar, nos solicitar proponer una alternativa que evite realizar los pasos anteriores, con una descripción de máximo de dos líneas.  
 
-## **a. Convertir el fichero cvs a formato JSON**
 
-HEADER del CSV:\
-`_id;id_local;id_distrito_local;desc_distrito_local;desc_barrio_local;clase_vial_edificio;num_edificio;Cod_Postal;coordenada_x_local;coordenada_y_local;desc_situacion_local;Nombre;id_periodo_terraza;desc_periodo_terraza;id_situacion_terraza;desc_situacion_terraza;Superficie_ES;DESC_CLASE;DESC_NOMBRE;num_terraza;cal_terraza;desc_ubicacion_terraza;hora_ini_LJ_es;hora_fin_LJ_es;hora_ini_LJ_ra;hora_fin_LJ_ra;hora_ini_VS_es;hora_fin_VS_es;hora_ini_VS_ra;hora_fin_VS_ra;mesas_aux_es;mesas_aux_ra;mesas_es;mesas_ra;sillas_es;sillas_ra;;;;;;;; `\
+Para realizar esta parte de la actividad, alojamos la base de datos en github y escribirmos todo el codigo en un notebook de jupiter. 
