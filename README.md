@@ -28,4 +28,4 @@ h. Desde la terminar, nos solicitar proponer una alternativa que evite realizar 
 
 **Justificación del uso de las plataformas**
 
-Dado que esta es una actividad grupal, buscamos distintas plataformas que permitieran el trabajo en línea, dado que somos de distintos países, que fuera gratuira y que facilitará la revisión y ejecución de los códigos por parte del profesor y dentro de las opciones posibles la mejor que encontramos fue utilizar el repositorio de Github para alojar las bases de datos, el notebook y editar el notebook en Google Colab.
+Ya que esta es una actividad grupal, buscamos distintas plataformas que permitieran realizar el trabajo en línea, gratuitaa y que además facilitará la revisión y ejecución de los códigos por parte del profesor. Dentro de las opciones posibles la mejor que encontramos fue utilizar el repositorio de Github para alojar los datos (bases de datos en bruto, normalizadas y el notebook) y editor de notebook en Google Colab.
