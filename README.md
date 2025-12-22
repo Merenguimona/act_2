@@ -16,5 +16,7 @@ g. Se consulta si con el elemento: `datos_insertar ` ¿se podría realizar un ´
 h. Desde la terminar, nos solicitar proponer una alternativa que evite realizar los pasos anteriores, con una descripción de máximo de dos líneas.  
 
 
-Para realizar esta parte de la actividad, alojamos la base de datos en github y escribirmos todo el codigo en un notebook de jupiter. 
-Para ingresar el notebook presione en el siguiente [ENLACE](https://github.com/Merenguimona/act_2/blob/0677ad8c45772469834155d341db02267206aade/notebook/Actividad_2.ipynb)
+Para realizar esta parte de la actividad realizamos lo siguiente: 
+1. Alojamos la base de datos en github en la carpeta data\
+2. Escribirmos todo el codigo y las explicaciones de los paso a paso en un notebook de Google Google Colab al que se puede ingresar por el siguiente [ENLACE](https://github.com/Merenguimona/act_2/blob/4b0ffd19980390b77c38a8afdabd5e86e8cf129a/notebook/Actividad_2.ipynb)
+3. Las bases de datos en formato json y js se encuentrán en la carpeta [outputs](https://github.com/Merenguimona/act_2/tree/4b0ffd19980390b77c38a8afdabd5e86e8cf129a/outputs)
