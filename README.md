@@ -1,2 +1,21 @@
-# act_2
-Repositorio para trabajo de la actividad 2
+# Caso de uso 
+
+Caso de uso: restricción de terrazas en Madrid por covid-19. Contratan a nuestro equipo para actualizar las restricciones de ciertos locales y terrazas en Madrid por cuestiones del covid-19. Los datos para actualizar están en el fichero llamado act-grupal-openDataLocalesMadrid.cvs y se os pide que consolidéis dichos cambios en una base de datos MongoDB llamada Madrid con la colección Terrazas. La información del dataset a utilizar lo tenéis en la siguiente [URL: Open Data Censo de locales, sus actividades y terrazas de hostelería y restauración (Terrazas)](https://datos.madrid.es/FWProjects/egob/Catalogo/Economia/Ficheros/Estructura_DS_FicheroCLA_Terrazas.pdf)
+
+En el alcance del contrato se nos solicita:
+
+a. Convertir el fichero CVS a formato JSON.\
+b. Descargar el fichero generado en el paso anterior, en formato JSON indicando la opción Array. En el fichero hay un problema de espacios en muchos campos de tipo String, que se solicitan corregir en esta etapa.\
+c. Editar el archivo generado, y al principio de todo añadir la línea: `var datos_insertar =`\
+d. Guardar el fichero en una ruta conocida y cambiar su extensión a formato .js y explicar que tipo de fichero es un `.js`\
+e. Abrir el cliente *mongo* y ejecutar las siguientes instrucciones:\
+        `load("PATH\fichero.js")`\
+        `datos_insertar[0]`\
+f. Describir brevemente las instrucciones anteriores\
+g. Se consulta si con el elemento: `datos_insertar ` ¿se podría realizar un ´insert´ masivo? ¿Cómo?\
+h. Desde la terminar, nos solicitar proponer una alternativa que evite realizar los pasos anteriores, con una descripción de máximo de dos líneas.  
+
+## **a. Convertir el fichero cvs a formato JSON**
+
+HEADER del CSV:\
+`_id;id_local;id_distrito_local;desc_distrito_local;desc_barrio_local;clase_vial_edificio;num_edificio;Cod_Postal;coordenada_x_local;coordenada_y_local;desc_situacion_local;Nombre;id_periodo_terraza;desc_periodo_terraza;id_situacion_terraza;desc_situacion_terraza;Superficie_ES;DESC_CLASE;DESC_NOMBRE;num_terraza;cal_terraza;desc_ubicacion_terraza;hora_ini_LJ_es;hora_fin_LJ_es;hora_ini_LJ_ra;hora_fin_LJ_ra;hora_ini_VS_es;hora_fin_VS_es;hora_ini_VS_ra;hora_fin_VS_ra;mesas_aux_es;mesas_aux_ra;mesas_es;mesas_ra;sillas_es;sillas_ra;;;;;;;; `\
