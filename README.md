@@ -10,11 +10,11 @@ ESTUDIANTES:
 * LUIS VEGA CABALLERO
 
 **Para realizar esta parte de la actividad realizamos lo siguiente:**
-1. Alojamos la base de datos en github en la carpeta data
-2. Escribirmos todo el codigo y las explicaciones de los paso a paso en el notebook  Actividad_2.ipynb de Google Google Colab el que esta alojado en este [repositorio](https://github.com/Merenguimona/act_2/blob/4b0ffd19980390b77c38a8afdabd5e86e8cf129a/notebook/Actividad_2.ipynb) y que se puede ejecutar desde [Google Colab](https://colab.research.google.com/github/Merenguimona/act_2/blob/main/notebook/Actividad_2.ipynb). 
+1. Alojamos la base de datos en Github en la carpeta data
+2. Escribirmos todo el código y las explicaciones de los paso a paso en el notebook  Actividad_2.ipynb de Google Google Colab el que esta alojado en este **[repositorio]**(https://github.com/Merenguimona/act_2/blob/4b0ffd19980390b77c38a8afdabd5e86e8cf129a/notebook/Actividad_2.ipynb) y que se puede ejecutar desde [Google Colab](https://colab.research.google.com/github/Merenguimona/act_2/blob/main/notebook/Actividad_2.ipynb). 
 3. Las bases de datos en formato JSON y JS se encuentrán en la carpeta [outputs](https://github.com/Merenguimona/act_2/tree/4b0ffd19980390b77c38a8afdabd5e86e8cf129a/outputs)
 4. Para realizar los comandos de la base de datos de MongoDB se utilizo el MongoDB atlas, para dejar todo en línea.
-5. Neo4j ¿en línea?
+**5. Neo4j ¿en línea??????????????????**
 
 
 **Justificación del uso de las plataformas**
