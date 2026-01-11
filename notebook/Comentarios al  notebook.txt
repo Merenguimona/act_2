@@ -1,0 +1,60 @@
+- Se agrega el entorno local  para trabajar con mongodb en la celda 32 y 33
+
+- Para evitar conflictos existe en la celda de código 32, luego de la conexión se agrega el siguiente punto: 
+
+	#En caso de existir la base de datos Madrid previamente en el entorno local se bota para volver a cargar
+	client.drop_database("Madrid")
+	print("✅ DB 'Madrid' eliminada en caso de existir previamente")
+
+
+- Se cambia la edición de la iniciación de actualizaciones solicitadas (Luego del punto H y consecutivos)
+
+- Error de la collection.distinct("id_situacion_terraza") donde aparecían 3 valores, se subsana, obteniéndose dos valores 1 y 8.
+
+- Se agrega en la celda 40 la comprobación del update
+
+- En celda 42 se solicita utilizar las mesas como variables y se utilizan las sillas, la parte del código se comenta y se reutiliza cambiando la variable a mesas.
+
+- En el punto 3 de adición de mesas y sillas auxiliares se agrega la proporción en sillas_ra por medio de  [sillas_ra = ( mesas_ra × sillas_es) / mesas_es] 
+utilizando pandas y numpy. Luego se actualiza el dato de sillas_ra con el calculo realizado en el dataframe de pandas,
+para luego realizar el incremento solicitado (y codificado por Vladimir)
+
+- Punto 4 se elimina default : grande del pipeline y se agrega [] antes del "$set": False
+
+- Punto 5 se modifica el código, dado que las horas están en string. y se agrega df para observar los cambios
+
+- punto 6 se modifica el código cambiando el formato de la hora y agregando un df para visualizar los cambios
+collection.update_many(
+    {"hora_fin_vs_es": "02:30"},
+    {"$set": {"hora_fin_vs_es": "02:00"}}
+)
+
+collection.update_many(
+    {"hora_fin_vs_ra": "02:30"},
+    {"$set": {"hora_fin_vs_ra": "02:00"}}
+)
+
+
+a
+
+collection.update_many(
+    {"hora_fin_vs_es": "2:30:00"},
+    {"$set": {"hora_fin_vs_es": "2:00:00"}}
+)
+
+collection.update_many(
+    {"hora_fin_vs_es": "8:30:00"},
+    {"$set": {"hora_fin_vs_es": "2:00:00"}}
+)
+
+collection.update_many(
+    {"hora_fin_vs_ra": "2:30:00"},
+    {"$set": {"hora_fin_vs_ra": "2:00:00"}}
+)
+
+
+- Punto 7 se agrega df para visualizar updates
+
+- punto 8 se agrega df para visualizar updates
+
+- 
